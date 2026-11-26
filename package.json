@@ -1,0 +1,20 @@
+{
+  "name": "lib-mrz-gas-utils",
+  "version": "0.1.0",
+  "description": "Utilidades para Google Apps Script: HTTP, reintentos, logging y Sheets",
+  "scripts": {
+    "lint": "eslint src/",
+    "format": "prettier --write src/",
+    "push": "clasp push",
+    "pull": "clasp pull"
+  },
+  "keywords": ["apps-script", "google-workspace", "utilities", "clasp"],
+  "author": "Andres Martinez",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@google/clasp": "^2.4.2",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.0"
+  }
+}
